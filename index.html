@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Taco Bell® | Live Más</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="tacobell-icon.png" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="bootstrap-overrides">
+    <div class="navigation" id="nav">
+      <div class="navbar-container">
+        <div class="logo">
+          <img src="Taco-Bell-Emblem.png" alt="tacobell icon" />
+          <h3>LOG IN</h3>
+        </div>
+        <div class="search-bar" id="search">
+          <div class="search-box">
+            <img src="icons8-search-24.png" alt="search icon" /><span
+              ><input type="text" placeholder="SEARCH OUR FOOD MENU"
+            /></span>
+          </div>
+        </div>
+        <div class="navbar-item-container">
+          <div class="navbar-item">MENU</div>
+          <div class="navbar-item">LOCATIONS</div>
+          <div class="navbar-item">DELIVERY</div>
+          <div class="navbar-item">REWARDS</div>
+          <div class="navbar-item">NUTRITION</div>
+          <div class="navbar-item">GIFT CARDS</div>
+        </div>
+      </div>
+      <div class="navbar-close">
+        <img
+          src="icons8-close-50.png"
+          alt="close-button"
+          onclick="toggleNav()"
+        />
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="my-header">
+        <!-- <div class="my-header-separator"></div> -->
+        <div class="search-bar">
+          <div class="search-box">
+            <img src="icons8-search-24.png" alt="search icon" /><span
+              ><input type="text" placeholder="SEARCH OUR FOOD MENU"
+            /></span>
+          </div>
+        </div>
+        <div class="cluster">
+          <div class="start-order">
+            <div class="double-line">
+              <div id="line1">Ordering pickup?</div>
+              <div id="line2">We'll need your location</div>
+            </div>
+            <div>
+              <a href="https://www.tacobell.com/locations" target="_blank"
+                ><button class="ordernow">START YOUR ORDER</button></a
+              >
+            </div>
+          </div>
+          <div class="separator">|</div>
+
+          <div class="header-icons-container">
+            <div class="header-icons">
+              <img
+                id="hamburger-menu"
+                src="icons8-hamburger-menu-50.png"
+                alt="menu-icon"
+                onclick="toggleNav()"
+              />
+              <div>
+                <a href="https://www.tacobell.com/login/yum" target="_blank"
+                  ><button class="login-button">LOG IN</button></a
+                >
+              </div>
+            </div>
+            <div class="separator">|</div>
+            <img
+              id="center-tacobell-icon"
+              src="tacobell-icon.png"
+              alt="center-tacobell-icon"
+            />
+            <div class="header-icons">
+              <a href="">
+                <div class="your-rewards"></div>
+              </a>
+              <div class="separator">|</div>
+              <a href="">
+                <div class="your-order"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="navigation">
+          <div class="logo">
+            <img src="Taco-Bell-Emblem.png" alt="tacobell icon" />
+          </div>
+          <div class="navbar-item">MENU</div>
+          <div class="navbar-item">LOCATIONS</div>
+          <div class="navbar-item">DELIVERY</div>
+          <div class="navbar-item">REWARDS</div>
+          <div class="navbar-item">NUTRITION</div>
+          <div class="navbar-item">GIFT CARDS</div>
+          <div class="show-purposes">
+            <img src="show-purposes.png" alt="show purposes" />
+          </div>
+        </div>
+        <div class="main-body">
+          <div class="show-purposes" id="show-purposes-resp">
+            <img src="show-purposes.png" alt="show purposes" />
+          </div>
+          <div class="display-1">
+            <video id="video-1" autoplay muted loop>
+              <source src="display1-video.mp4" type="video/mp4" />
+            </video>
+            <video id="video-2" autoplay muted loop>
+              <source src="Taco Bell  Live Ms (1).mp4" type="video/mp4" />
+            </video>
+            <!-- <img src="taco1.jpg" /> -->
+            <div class="display-1-box">
+              <!-- <div class="section-1">
+                <span id="cheesy">CHEESY</span>
+                <span id="street">STREET</span>
+                <span id="chalupas">CHALUPAS</span>
+              </div> -->
+              <br />
+              <div class="section-2">FRESH CILANTRO & ONIONS? SAY LESS.</div>
+              <div class="section-3">
+                <p>
+                  Two new street-inspired Chalupas filled with fresh cilantro &
+                  onions, and marinated, grilled steak.
+                </p>
+              </div>
+              <div class="section-4">
+                <button class="ordernow">ORDER NOW</button>
+                <button class="exploremenu">EXPLORE MENU</button>
+              </div>
+            </div>
+            <div class="display-1-ps">
+              At limited participating US Taco Bell{reg} locations for a limited
+              time only, while supplies last. Check store for price &
+              participation which vary. Tax extra.
+            </div>
+          </div>
+          <div class="display-2">
+            <div class="my-heading"><h1>NACHO FRIES</h1></div>
+            <div class="display-2-box">
+              <div class="my-col-4">
+                <img
+                  src="E6_24_NAT_JalapenoRanch_NachoFries_App_Carousel-jpg.png"
+                  alt="nacho fries"
+                />
+                <h2>Jalapeño Ranch Nacho Fries</h2>
+                <p>
+                  Nacho Fries topped with seasoned beef, Nacho Cheese sauce,
+                  Jalapeño Ranch sauce, cheddar cheese, pico de gallo, and
+                  reduced-fat sour cream
+                </p>
+              </div>
+              <div class="my-col-4">
+                <img
+                  src="E6_24_NAT_JalapenoRanch_NachoFries-Veggie_App_Carousel-jpg.png"
+                  alt="Jalapeño Ranch Nacho Fries"
+                />
+                <h2>Jalapeño Ranch Nacho Fries Veggie</h2>
+                <p>
+                  Nacho Fries topped with black beans, Nacho Cheese sauce,
+                  Jalapeño Ranch sauce, cheddar cheese, pico de gallo, and
+                  reduced-fat sour cream.
+                </p>
+              </div>
+              <div class="my-col-4">
+                <img
+                  src="E6_24_NAT_NachoFries-Lrg_App_Carousel-jpg.png"
+                  alt="Large Nacho Fries"
+                />
+                <h2>Large Nacho Fries</h2>
+                <p>Crispy Nacho Fries and Nacho Cheese sauce to dip.</p>
+              </div>
+            </div>
+            <div class="dots">
+              <div class="dots-box" id="first-dots">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="display-3">
+            <div class="my-heading">
+              <h1>SATISFY YOUR CRAVINGS</h1>
+            </div>
+            <div class="display-3-box">
+              <div class="col-2">
+                <img
+                  src="E524_eComm_-7LCB_WebVerticalBucket-JonMod-jpg.png"
+                  alt="THE BEST OF THE BELL"
+                />
+                <h2>THE BEST OF THE BELL®</h2>
+                <p>
+                  Our Luxe Cravings Box pairs three classics with chips and a
+                  drink. Best part? It's just $7.
+                </p>
+                <button class="ordernow">ORDER NOW</button>
+                <p class="smol-text">
+                  At limited participating US Taco Bell{reg} locations for a
+                  limited time only, while supplies last. Check store for price
+                  & participation which vary. Drinks exclude Freezes. Tax extra.
+                </p>
+              </div>
+              <div class="col-2">
+                <img
+                  src="vertical-bucket-2024-E01-CantinaMenuAwareness-Desktop.gif"
+                  alt="DYNAMITE LOOKS DAMN GOOD"
+                />
+                <h2>DYNAMITE LOOKS DAMN GOOD</h2>
+                <p>
+                  Marinated. Slow roasted. Craveable all day. Obsessed yet? The
+                  Cantina Chicken Menu is officially here.
+                </p>
+                <button class="ordernow">EXPLORE MENU</button>
+                <p class="smol-text">
+                  At participating U.S. Taco Bell locations, while supplies
+                  last. Contact local restaurant for hours and participation,
+                  which vary.
+                </p>
+              </div>
+            </div>
+            <div class="display-3-box">
+              <div class="col-2">
+                <img
+                  src="vertical-bucket-2024-E05-CravingsValueMenu-Desktop-jpg.png"
+                  alt="Say it With Us: 10 Items, Each $3 or Less"
+                />
+                <h2>Say it With Us: 10 Items, Each $3 or Less</h2>
+                <p>
+                  For just a few dollars, you can discover what makes the
+                  Cravings Value Menu so dependably delicious.
+                </p>
+                <button class="ordernow">EXPLORE MENU</button>
+                <p class="smol-text">
+                  At participating U.S. Taco Bell{reg} locations while supplies
+                  last. Contact store for price and participation which vary.
+                  Drinks not included on Cravings Value Menu. Tax extra.
+                </p>
+              </div>
+              <div class="col-2">
+                <img
+                  src="vertical-bucket-2024-E02-BuildYourOwnCravingsBoxLifestyle-Desktop.jpg"
+                  alt="Build Your Own Cravings Box"
+                />
+                <h2>Build Your Own Cravings Box</h2>
+                <p>
+                  Choose one Specialty. Choose one Classic. Choose one Side. And
+                  finish with a medium fountain drink.
+                </p>
+                <button class="ordernow">BUILD YOURS</button>
+              </div>
+            </div>
+            <div class="my-heading">
+              <h1>What's Happening On the App</h1>
+            </div>
+            <div class="display-3-box2">
+              <div class="col-2">
+                <img
+                  src="carousel-2024-E06-DropsAugustPreviews-Mobile.gif"
+                  alt="Rewards Member Access"
+                />
+                <h2>Rewards Member Access</h2>
+                <p>
+                  Check out the exclusive Tuesday Drops happening in August.
+                  Only in the app.<sup>3</sup>
+                </p>
+              </div>
+              <div class="col-2">
+                <img
+                  src="carousel-2023-E05-TuesdayDropsGeneric-Mobile.jpg"
+                  alt="Choose Your Free Reward"
+                />
+                <h2>Choose Your Free Reward</h2>
+                <p>
+                  Your free reward awaits on our app. All it takes is you
+                  joining Taco Bell Rewards.<sup>2</sup>
+                </p>
+              </div>
+            </div>
+            <div class="references">
+              <p>
+                <sup>2</sup>Free-sign-up reward valid for 14 days from issuance
+                and redeemable only via the Taco Bell mobile app for
+                in-store/drive-thru pickup orders, at participating U.S. Taco
+                Bell{reg} locations, while supplies last. Not available for a
+                web pay-ahead, pickup order or delivery order. Must be a
+                registered Taco Bell app user in order to redeem. Reward valid
+                once per registered user. No product or ingredient
+                substitutions, upgrades or add-ons. Reward is non-transferable
+                and cannot be combined with any other offer. No cash value.
+                <a name="terms-conditions" href="" class="terms"
+                  >Terms and conditions</a
+                >
+                apply.
+              </p>
+              <p>
+                <sup>3</sup>Taco Bell Rewards program is available at
+                participating U.S. locations and subject to
+                <a name="terms-conditions" href="" class="terms"
+                  >terms and conditions</a
+                >. All items while supplies last.
+              </p>
+            </div>
+          </div>
+          <div class="display-4">
+            <div class="my-heading">
+              <h1>News to know</h1>
+            </div>
+            <div class="display-4-box">
+              <div class="my-col-4">
+                <img
+                  src="StoryTelling-CharlesS_AppCarousel_720x720-png.png"
+                  alt="The summer of international spotlight"
+                />
+                <h2>The summer of international spotlight</h2>
+                <p>
+                  Charles S. - Director of Finance and Development, London
+                  Restaurant Support Center
+                </p>
+              </div>
+              <div class="my-col-4">
+                <img
+                  src="carousel-2024-E02-RecipeForRestlessCreativityPodcast-Mobile.jpg"
+                  alt="Recipe for restless creativity - ep.32"
+                />
+                <h2>Recipe for restless creativity - ep.32</h2>
+                <p>
+                  What Does Taco Bell and a Gaming Content Creator Have in
+                  Common? A Conversation With Cozy.Games AKA Kennedy Rose.
+                </p>
+              </div>
+              <div class="my-col-4">
+                <img
+                  src="carousel-2024-E04-TBFCommunityGrants.jpg"
+                  alt="Breaking records thanks to spare change"
+                />
+                <h2>Breaking records thanks to spare change</h2>
+                <p>
+                  Through its Community Grants program, the Taco Bell Foundation
+                  is supporting more than 450 youth-serving nonprofit
+                  organizations that break down barriers to educational and
+                  career success. Learn more
+                </p>
+              </div>
+            </div>
+            <div class="dots">
+              <div class="dots-box">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+              </div>
+            </div>
+            <div class="references2">
+              <p>
+                <sup>4</sup>Gift cards are redeemable at participating U.S. Taco
+                Bell locations. No expiration date and no fees apply to Gift
+                Card balances. See complete terms of use. Issued by GCTB LLC
+                ©2024 Taco Bell IP Holder, LLC. ©2024 GCTB, LLC.
+              </p>
+              <p>
+                <sup>5</sup>For corporate and franchise locations. Franchisees
+                and licensees are independent business owners and employers and
+                are responsible for their own employment practices and benefits
+              </p>
+            </div>
+            <div class="social-media">
+              <div>Stay Connected</div>
+              <div class="social-media-icons">
+                <a name="facebook" href=""
+                  ><img src="Social-Icon-Facebook-2x.png" alt="Facebook"
+                /></a>
+                <a name="instagram" href=""
+                  ><img src="Social-Icon-Instagram-2x.png" alt="Instagram"
+                /></a>
+                <a name="x" href=""
+                  ><img src="Social-Icon-X-2x.png" alt="X"
+                /></a>
+                <a name="tiktok" href=""
+                  ><img src="Social-Icon-TikTok-2x.png" alt="TikTok"
+                /></a>
+                <a name="youtube" href=""
+                  ><img src="Social-Icon-YouTube-2x.png" alt="YouTube"
+                /></a>
+                <a name="linkedin" href=""
+                  ><img src="Social-Icon-LinkedIn-2x.png" alt="LinkedIn"
+                /></a>
+              </div>
+            </div>
+            <div class="links">
+              <p>
+                <a name="about-us" href="">About Us</a>
+                <a name="contact-us" href="">Contact Us</a>
+                <a name="faq" href="">FAQS</a>
+                <a name="careers" href="">Careers</a>
+                <a name="taco-bell-foundation" href="">Taco Bell Foundation</a>
+                <a name="franchise-info" href="">Franchise Info</a>
+                <a name="newsroom" href="">Newsroom</a>
+                <a name="blogs" href="">Blogs</a>
+                <a name="gift-cards" href="">Gift Cards</a>
+                <a name="shops" href="">Taco Shop</a>
+                <a name="weddings" href="">Taco Bell Weddings</a>
+                <a name="app" href="">Mobile App</a>
+                <a name="offers-deals" href="">Offers and Deals</a>
+                <a name="links" href="">Popular Links</a>
+              </p>
+            </div>
+            <hr />
+            <div class="other-links">
+              <p>
+                <a name="ads" href="">Cookies And Ads</a>
+                <a name="privacy-policy" href="">Privacy Policy</a>
+                <a name="cal-privacy" href="">California Privacy Notice</a>
+                <a name="terms" href="">Terms Of Use</a>
+                <a name="accessibility" href="">Accessibility Statement</a>
+                <a name="responsible-disclosure" href=""
+                  >Responsible Disclosure</a
+                >
+                <a name="scams" href=""
+                  >Do Not Sell or Share My Personal Information</a
+                >
+              </p>
+            </div>
+            <p class="footer">
+              At participating U.S. Taco Bell® locations. Contact restaurant for
+              prices, hours & participation, which vary. Tax extra. 2,000
+              calories a day used for general nutrition advice, but calorie
+              needs vary. Additional nutrition information available upon
+              request.
+            </p>
+            <p class="footer footer2">
+              ©2024 Taco Bell IP Holder, LLC. All Rights Reserved. TACO BELL,
+              the Bell logo, and other marks are the property of Taco Bell IP
+              Holder, LLC. All other trademarks are the property of their
+              respective owners
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function toggleNav() {
+        var x = document.getElementById("nav");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
