@@ -315,6 +315,7 @@ hr {
 }
 
 .navbar-item {
+  color: black;
   height: 77.5px;
   box-sizing: border-box;
   text-align: center;
