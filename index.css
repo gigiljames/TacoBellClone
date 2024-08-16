@@ -252,6 +252,10 @@ hr {
   border: 1px solid rgb(236, 236, 236);
 }
 
+h2 {
+  color: black;
+}
+
 #line1 {
   text-transform: uppercase;
   color: #585858;
@@ -274,6 +278,7 @@ hr {
 }
 
 .links a {
+  color: black;
   margin-left: 15px;
   line-height: 20px;
 }
@@ -345,6 +350,7 @@ hr {
 .other-links a {
   margin-left: 15px;
   line-height: 20px;
+  color: #5010a5;
 }
 
 .ordernow {
